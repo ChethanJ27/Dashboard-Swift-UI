@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B93017CF2A4338E5002D5CB1 /* LinksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93017CE2A4338E5002D5CB1 /* LinksListView.swift */; };
+		B93017D12A435FF8002D5CB1 /* LinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93017D02A435FF8002D5CB1 /* LinksModel.swift */; };
+		B93017D32A43613F002D5CB1 /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93017D22A43613F002D5CB1 /* DashboardModel.swift */; };
+		B93017D62A43637B002D5CB1 /* DashboardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93017D52A43637B002D5CB1 /* DashboardService.swift */; };
+		B99254662A4552450058A03B /* Figtree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B99254652A45522C0058A03B /* Figtree-Bold.ttf */; };
+		B99254672A45524B0058A03B /* Figtree-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B99254642A45521E0058A03B /* Figtree-VariableFont_wght.ttf */; };
+		B99254682A45524F0058A03B /* Figtree-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B99254632A4552130058A03B /* Figtree-Italic-VariableFont_wght.ttf */; };
+		B99254692A45528A0058A03B /* Dashboard-Swift-UI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9CC03C22A41A04200E4FE78 /* Dashboard-Swift-UI-Info.plist */; };
+		B992546B2A4553630058A03B /* Figtree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B992546A2A45535F0058A03B /* Figtree-SemiBold.ttf */; };
+		B992546D2A4553AC0058A03B /* Figtree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B992546C2A4553AC0058A03B /* Figtree-Regular.ttf */; };
+		B9B380DF2A40A657008CC7EA /* Dashboard_Swift_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B380DE2A40A657008CC7EA /* Dashboard_Swift_UIApp.swift */; };
+		B9B380E12A40A657008CC7EA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B380E02A40A657008CC7EA /* ContentView.swift */; };
+		B9B380E32A40A65A008CC7EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B380E22A40A65A008CC7EA /* Assets.xcassets */; };
+		B9B380E62A40A65A008CC7EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B380E52A40A65A008CC7EA /* Preview Assets.xcassets */; };
+		B9B380ED2A40C17D008CC7EA /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B380EC2A40C17D008CC7EA /* CustomTabBarView.swift */; };
+		B9CC03C92A41D07B00E4FE78 /* LinksTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC03C82A41D07B00E4FE78 /* LinksTabView.swift */; };
+		B9CC03CB2A41DF1A00E4FE78 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC03CA2A41DF1A00E4FE78 /* GraphView.swift */; };
+		B9CC03D22A41ED3800E4FE78 /* ChartDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC03D12A41ED3800E4FE78 /* ChartDataModel.swift */; };
+		B9CC03D52A41EE4D00E4FE78 /* ChartDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC03D42A41EE4D00E4FE78 /* ChartDataViewModel.swift */; };
+		B9CC03D72A42108600E4FE78 /* HorizontalCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC03D62A42108600E4FE78 /* HorizontalCardView.swift */; };
+		B9CC03D92A421DC500E4FE78 /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC03D82A421DC500E4FE78 /* SegmentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B93017CE2A4338E5002D5CB1 /* LinksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksListView.swift; sourceTree = "<group>"; };
+		B93017D02A435FF8002D5CB1 /* LinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksModel.swift; sourceTree = "<group>"; };
+		B93017D22A43613F002D5CB1 /* DashboardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		B93017D52A43637B002D5CB1 /* DashboardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardService.swift; sourceTree = "<group>"; };
+		B99254632A4552130058A03B /* Figtree-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B99254642A45521E0058A03B /* Figtree-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B99254652A45522C0058A03B /* Figtree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Bold.ttf"; sourceTree = "<group>"; };
+		B992546A2A45535F0058A03B /* Figtree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-SemiBold.ttf"; sourceTree = "<group>"; };
+		B992546C2A4553AC0058A03B /* Figtree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Figtree-Regular.ttf"; sourceTree = "<group>"; };
+		B9B380DB2A40A657008CC7EA /* Dashboard Swift UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dashboard Swift UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B380DE2A40A657008CC7EA /* Dashboard_Swift_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dashboard_Swift_UIApp.swift; sourceTree = "<group>"; };
+		B9B380E02A40A657008CC7EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B9B380E22A40A65A008CC7EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9B380E52A40A65A008CC7EA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9B380EC2A40C17D008CC7EA /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
+		B9CC03C22A41A04200E4FE78 /* Dashboard-Swift-UI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Dashboard-Swift-UI-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B9CC03C82A41D07B00E4FE78 /* LinksTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksTabView.swift; sourceTree = "<group>"; };
+		B9CC03CA2A41DF1A00E4FE78 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		B9CC03D12A41ED3800E4FE78 /* ChartDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataModel.swift; sourceTree = "<group>"; };
+		B9CC03D42A41EE4D00E4FE78 /* ChartDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataViewModel.swift; sourceTree = "<group>"; };
+		B9CC03D62A42108600E4FE78 /* HorizontalCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCardView.swift; sourceTree = "<group>"; };
+		B9CC03D82A421DC500E4FE78 /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B380D82A40A657008CC7EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B93017D42A43635A002D5CB1 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B93017D52A43637B002D5CB1 /* DashboardService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B99254622A4551F40058A03B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B992546A2A45535F0058A03B /* Figtree-SemiBold.ttf */,
+				B99254632A4552130058A03B /* Figtree-Italic-VariableFont_wght.ttf */,
+				B99254642A45521E0058A03B /* Figtree-VariableFont_wght.ttf */,
+				B99254652A45522C0058A03B /* Figtree-Bold.ttf */,
+				B992546C2A4553AC0058A03B /* Figtree-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B9B380D22A40A657008CC7EA = {
+			isa = PBXGroup;
+			children = (
+				B9B380DD2A40A657008CC7EA /* Dashboard Swift UI */,
+				B9B380DC2A40A657008CC7EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B380DC2A40A657008CC7EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B380DB2A40A657008CC7EA /* Dashboard Swift UI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B380DD2A40A657008CC7EA /* Dashboard Swift UI */ = {
+			isa = PBXGroup;
+			children = (
+				B99254622A4551F40058A03B /* Fonts */,
+				B93017D42A43635A002D5CB1 /* Service */,
+				B9CC03D32A41EE3800E4FE78 /* ViewModels */,
+				B9CC03D02A41ED1D00E4FE78 /* Models */,
+				B9CC03CF2A41DF8000E4FE78 /* Views */,
+				B9CC03C22A41A04200E4FE78 /* Dashboard-Swift-UI-Info.plist */,
+				B9B380DE2A40A657008CC7EA /* Dashboard_Swift_UIApp.swift */,
+				B9B380E22A40A65A008CC7EA /* Assets.xcassets */,
+				B9B380E42A40A65A008CC7EA /* Preview Content */,
+			);
+			path = "Dashboard Swift UI";
+			sourceTree = "<group>";
+		};
+		B9B380E42A40A65A008CC7EA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9B380E52A40A65A008CC7EA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9CC03CF2A41DF8000E4FE78 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC03C82A41D07B00E4FE78 /* LinksTabView.swift */,
+				B9CC03CA2A41DF1A00E4FE78 /* GraphView.swift */,
+				B9B380E02A40A657008CC7EA /* ContentView.swift */,
+				B9B380EC2A40C17D008CC7EA /* CustomTabBarView.swift */,
+				B9CC03D62A42108600E4FE78 /* HorizontalCardView.swift */,
+				B9CC03D82A421DC500E4FE78 /* SegmentView.swift */,
+				B93017CE2A4338E5002D5CB1 /* LinksListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9CC03D02A41ED1D00E4FE78 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B93017D22A43613F002D5CB1 /* DashboardModel.swift */,
+				B93017D02A435FF8002D5CB1 /* LinksModel.swift */,
+				B9CC03D12A41ED3800E4FE78 /* ChartDataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B9CC03D32A41EE3800E4FE78 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC03D42A41EE4D00E4FE78 /* ChartDataViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B380DA2A40A657008CC7EA /* Dashboard Swift UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B380E92A40A65A008CC7EA /* Build configuration list for PBXNativeTarget "Dashboard Swift UI" */;
+			buildPhases = (
+				B9B380D72A40A657008CC7EA /* Sources */,
+				B9B380D82A40A657008CC7EA /* Frameworks */,
+				B9B380D92A40A657008CC7EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Dashboard Swift UI";
+			productName = "Dashboard Swift UI";
+			productReference = B9B380DB2A40A657008CC7EA /* Dashboard Swift UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B380D32A40A657008CC7EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B9B380DA2A40A657008CC7EA = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B9B380D62A40A657008CC7EA /* Build configuration list for PBXProject "Dashboard Swift UI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B380D22A40A657008CC7EA;
+			productRefGroup = B9B380DC2A40A657008CC7EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B380DA2A40A657008CC7EA /* Dashboard Swift UI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B380D92A40A657008CC7EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B380E62A40A65A008CC7EA /* Preview Assets.xcassets in Resources */,
+				B99254662A4552450058A03B /* Figtree-Bold.ttf in Resources */,
+				B99254672A45524B0058A03B /* Figtree-VariableFont_wght.ttf in Resources */,
+				B992546B2A4553630058A03B /* Figtree-SemiBold.ttf in Resources */,
+				B992546D2A4553AC0058A03B /* Figtree-Regular.ttf in Resources */,
+				B99254692A45528A0058A03B /* Dashboard-Swift-UI-Info.plist in Resources */,
+				B9B380E32A40A65A008CC7EA /* Assets.xcassets in Resources */,
+				B99254682A45524F0058A03B /* Figtree-Italic-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B380D72A40A657008CC7EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CC03D52A41EE4D00E4FE78 /* ChartDataViewModel.swift in Sources */,
+				B9CC03D92A421DC500E4FE78 /* SegmentView.swift in Sources */,
+				B9CC03CB2A41DF1A00E4FE78 /* GraphView.swift in Sources */,
+				B93017D12A435FF8002D5CB1 /* LinksModel.swift in Sources */,
+				B93017D32A43613F002D5CB1 /* DashboardModel.swift in Sources */,
+				B9CC03D72A42108600E4FE78 /* HorizontalCardView.swift in Sources */,
+				B9CC03C92A41D07B00E4FE78 /* LinksTabView.swift in Sources */,
+				B93017D62A43637B002D5CB1 /* DashboardService.swift in Sources */,
+				B9CC03D22A41ED3800E4FE78 /* ChartDataModel.swift in Sources */,
+				B93017CF2A4338E5002D5CB1 /* LinksListView.swift in Sources */,
+				B9B380ED2A40C17D008CC7EA /* CustomTabBarView.swift in Sources */,
+				B9B380E12A40A657008CC7EA /* ContentView.swift in Sources */,
+				B9B380DF2A40A657008CC7EA /* Dashboard_Swift_UIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B9B380E72A40A65A008CC7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9B380E82A40A65A008CC7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B380EA2A40A65A008CC7EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dashboard Swift UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FYUQK2G53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dashboard-Swift-UI-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chethan.Dashboard-Swift-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9B380EB2A40A65A008CC7EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dashboard Swift UI/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FYUQK2G53;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Dashboard-Swift-UI-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chethan.Dashboard-Swift-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B380D62A40A657008CC7EA /* Build configuration list for PBXProject "Dashboard Swift UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B380E72A40A65A008CC7EA /* Debug */,
+				B9B380E82A40A65A008CC7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B380E92A40A65A008CC7EA /* Build configuration list for PBXNativeTarget "Dashboard Swift UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B380EA2A40A65A008CC7EA /* Debug */,
+				B9B380EB2A40A65A008CC7EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B380D32A40A657008CC7EA /* Project object */;
+}
