@@ -33,15 +33,20 @@ class DashboardService {
 
         
         let (data, response) = try await session.data(for: request)
-        print(response)
-        print(data)
+        
         guard response is HTTPURLResponse else {
             fatalError("dashboard Api call failed")
         }
-        
-        let fetchedData = try JSONDecoder().decode(DashboardModel.self, from: data)
-        print(fetchedData)
-        return fetchedData
+        switch response.statusCode {
+            case 200...299:
+                let fetchedData = try JSONDecoder().decode(DashboardModel.self, from: data)
+                print(fetchedData)
+                return fetchedData
+            case 401:
+                print("errror")
+            default:
+                print("api call failed")
+        }
     }
     
 }
